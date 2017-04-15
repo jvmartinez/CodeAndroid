@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutItemContact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutItemContact"
+        style="@style/style_item_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="center_vertical|fill_vertical"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageContact"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="2dp"
+                android:layout_weight="1.22"
+                android:padding="2dp"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/lblNameContact"
+                style="@style/style_item_contact_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:padding="3dp"
+                android:text="@string/lblTitleNameContact" />
+
+            <TextView
+                android:id="@+id/valueName"
+                style="@style/style_item_contact_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/lblTitlePhone"
+                android:padding="3dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/valuePhone"
+                style="@style/style_item_contact_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/lblTitlePhone"
+                android:layout_alignBottom="@+id/lblTitlePhone"
+                android:layout_toEndOf="@+id/lblTitlePhone"
+                android:padding="3dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lblTitlePhone"
+                style="@style/style_item_contact_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblNameContact"
+                android:padding="3dp"
+                android:text="@string/lblTitlePhone" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

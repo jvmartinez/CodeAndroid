@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contact List</string>
+    <string name="lblTitlePhone">Phone:</string>
+    <string name="lblTitleNameContact">Name:</string>
+</resources>
