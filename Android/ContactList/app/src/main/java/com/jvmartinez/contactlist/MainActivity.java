@@ -29,14 +29,6 @@ public class MainActivity extends AppCompatActivity {
         contact contact_2 = new contact("Carlos","Enock",00000);
         contacts.add(contact_1);
         contacts.add(contact_2);
-        contact contact_3 = new contact("Juan","Martinez",00000);
-        contact contact_4 = new contact("Carlos","Enock",00000);
-        contacts.add(contact_3);
-        contacts.add(contact_4);
-        contact contact_5 = new contact("Juan","Martinez",00000);
-        contact contact_6 = new contact("Carlos","Enock",00000);
-        contacts.add(contact_5);
-        contacts.add(contact_6);
         return contacts;
     }
 }
