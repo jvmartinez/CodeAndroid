@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Image of Iron Man</string>
+    <string name="btn_next">Netx</string>
+    <string name="btn_previous">Previous</string>
+</resources>
