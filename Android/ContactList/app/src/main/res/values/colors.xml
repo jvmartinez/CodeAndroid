@@ -3,4 +3,7 @@
     <color name="colorPrimary">#00bcd4</color>
     <color name="colorPrimaryDark">#68bcf0</color>
     <color name="colorAccent">#3d5afe</color>
+    <!-- color swiper-->
+    <color name="colorLetf">#3dd2b2</color>
+    <color name="colorRigth">#2af482</color>
 </resources>
